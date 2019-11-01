@@ -1,6 +1,6 @@
 ---
-name: Xamarin.Forms - Todo
-description: 'This sample demonstrates a Todo list application where the data is stored and accessed in a local SQLite database #getstarted'
+name: Xamarin.Forms - WIBS Sales App
+description: 'This sample demonstrates a Sales App that records the day to day working of a sales person and how we measure their performance, where the data is stored and accessed in a local SQLite database'
 page_type: sample
 languages:
 - csharp
@@ -10,20 +10,17 @@ urlFragment: todo
 ---
 # Todo
 
-This sample demonstrates a Todo list application where the data is stored and accessed in a local SQLite database.
+This sample demonstrates a Sales App that records the day to day working of a sales person and how we measure their performance, where the data is stored and accessed in a local SQLite database
 
 The app functionality is:
 
-- View a list of tasks.
-- Add a new item to the list of tasks.
+- Add,View Edit Sales Rep Details
+- Add,View Edit Customer Details
+- Add,View Edit Buyers Details
+-Calculate Numeric dsitribution and rate of sale
 - Set a task's status to 'completed'.
 
-In all cases the tasks are stored in a local SQLite database.
-
-For more information about the sample see [Working with a Local Database](https://docs.microsoft.com/xamarin/xamarin-forms/data-cloud/data/databases).
-
-![Todo application screenshot](Screenshots/01All.png "Todo application screenshot")
 
 ## Authors
 
-Craig Dunn, Bryan Costanich
+Noel Mangwarira
