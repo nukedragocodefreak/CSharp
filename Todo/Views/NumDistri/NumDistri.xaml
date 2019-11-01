@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Todo.NumDistri" Title="Num Distri">
+    <ScrollView>
+        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+            <Label Text="Total Visit" FontSize="Medium"/>
+            <Label Text="" x:Name="Total" FontSize="Large"/>
+
+            <Label Text="Total Stores With product"  FontSize="Medium"/>
+            <Label Text="" x:Name="TotalStores" FontSize="Large"/>
+
+
+            <Label Text="Numeric Distribution"  FontSize="Medium"/>
+            <Label Text="" x:Name="NumDist" FontSize="Large"/>
+            <ProgressBar x:Name="progress" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Todo.MenuManager" Title="">
+    <ScrollView>
+        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+            <Label Text="Dashboard" FontSize="Large"/>
+            <Label Text="" />
+            <Label Text="" />
+            <Button Text="Customers" Clicked="OnSaveClicked" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Buyers" Clicked="Button_Clicked_1" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Routes" Clicked="Button_Clicked_2" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Sales Persons" Clicked="Button_Clicked_3" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="ICE Execution" Clicked="Button_Clicked_4" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Numeric Dist" Clicked="Button_Clicked_5" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Rate Of sale" Clicked="Button_Clicked_6" BackgroundColor="DarkOrange" TextColor="White"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

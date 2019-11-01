@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Todo.StocksItemPage" Title="Stock Takes">
+    <ScrollView>
+        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+            <Image Source="user.png" WidthRequest="60" HeightRequest="60"/>
+            <Label Text="" />
+            <Label Text="" />
+            <Label Text="Branchname" />
+            <Picker x:Name="Picker1" SelectedItem="{Binding Branchname}"/>
+            <Label Text="Productname" />
+            <Entry Text="{Binding Productname}" />
+            <Label Text="DDelivered" />
+            <DatePicker MinimumDate="{Binding MinDate}"
+            MaximumDate="{Binding MaxDate}"
+            Date="{Binding  DDelivered}" />
+            <Label Text="Delivered " />
+            <Entry Text="{Binding Delivered}"  x:Name="DDelivered"/>
+            <Label Text="Sold" />
+            <Entry Text="{Binding Sold}"  x:Name="Sold"/>
+            <Label Text="InStock" />
+            <Entry Text="{Binding Instock}"  x:Name="Instock"/>
+            <Label Text="" />
+            <Entry Text="{Binding Rate}" x:Name="Rate" />
+            <Button Text="Save" Clicked="OnSaveClicked" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Delete" Clicked="OnDeleteClicked" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Cancel" Clicked="OnCancelClicked" BackgroundColor="DarkOrange" TextColor="White"/>
+            
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Todo.CalendarItemPage2" Title="Route Planning">
+    <ScrollView>
+        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+            <Label Text="Client Name" />
+            <Picker x:Name="Picker1" SelectedItem="{Binding Name}"/>
+            <Label Text="Date Of Visit" />
+            <DatePicker MinimumDate="10/26/2019"
+            MaximumDate="12/31/2019"
+            Date="{Binding Date}" />
+            <Label Text="" />
+            <Label Text="Description" />
+            <Entry Text="{Binding Description}" />
+            <Label Text="Is any one of Our Products AVailable in this Store"/>
+            <Picker  SelectedItem ="{Binding Availability}" x:Name="approve"/>
+            <Label Text="Done" />
+            <Switch IsToggled="{Binding Done}" />
+            <Button Text="Save" Clicked="OnSaveClicked" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Delete" Clicked="OnDeleteClicked" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Cancel" Clicked="OnCancelClicked" BackgroundColor="DarkOrange" TextColor="White"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

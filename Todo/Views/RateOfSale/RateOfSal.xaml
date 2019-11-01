@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Todo.RateOfSal">
+    <ListView x:Name="listView"  HasUnevenRows="True" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ScrollView Margin="20,20,20,20">
+                        <StackLayout HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand">
+                            <Label Text="Branch Name" FontAttributes="Bold"/>
+                            <Label Text="{Binding Branchname}" />
+                            <Label Text="Date Delivered"  FontAttributes="Bold"/>
+                            <Label Text="{Binding DDelivered}" />
+                            <Label Text="Quantity Delivered"  FontAttributes="Bold"/>
+                            <Label Text="{Binding Delivered}" />
+                            <Label Text="Quantity Sold"  FontAttributes="Bold"/>
+                            <Label Text="{Binding Sold}" />
+                            <Label Text="In Stock"  FontAttributes="Bold"/>
+                            <Label Text="{Binding Instock}" />
+                            <Label Text="Rate Of Sale"  FontAttributes="Bold"/>
+                            <Label Text="{Binding Rate}" />
+                            <ProgressBar x:Name="prog" Progress="{Binding Rate}"/>
+                           
+                        </StackLayout>
+                    </ScrollView>
+                </ViewCell>
+
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

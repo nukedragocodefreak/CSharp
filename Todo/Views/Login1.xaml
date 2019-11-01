@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Todo.Login1" Title="">
+    <ScrollView>
+        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+            <Label Text="Dashboard" FontSize="Large"/>
+            <Label Text="" />
+            <Label Text="" />
+    
+            <Button Text="Route Planning" Clicked="Button_Clicked_2" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="ICE Execution" Clicked="Button_Clicked_4" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Exit" Clicked="Button_Clicked" BackgroundColor="DarkOrange" TextColor="White"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

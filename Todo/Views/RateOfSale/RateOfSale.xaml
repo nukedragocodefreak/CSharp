@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Todo.RateOfSale" Title="">
+    <ScrollView>
+        <StackLayout Margin="50,50,50,50">
+            <Label Text="RATE OF SALE"
+             VerticalOptions="CenterAndExpand"
+             HorizontalOptions="CenterAndExpand"  FontSize="Large"/>
+            <Label Text="OK Marimba"/>
+            <ProgressBar Progress="0.71"/>
+            <Label Text="OK Avondale"/>
+            <ProgressBar Progress="0.8"/>
+            <Label Text="OK Warren Park" />
+            <ProgressBar Progress="0.72"/>
+            <Label Text="OK Glenora" />
+            <ProgressBar Progress="0.60"/>
+            <Label Text="OK Town"/>
+            <ProgressBar Progress="0.50"/>
+
+            <Label Text="SPAR Marimba"/>
+            <ProgressBar Progress="0.44"/>
+            <Label Text="SPAR Avondale"/>
+            <ProgressBar Progress="0.50"/>
+            <Label Text="SPAR Warren Park"/>
+            <ProgressBar Progress="0.55"/>
+            <Label Text="SPAR Glenora" />
+            <ProgressBar Progress="0.42"/>
+            <Label Text="SPAR Town"/>
+            <ProgressBar Progress="0.60"/>
+
+            <Label Text="TM Marimba"/>
+            <ProgressBar Progress="0.33"/>
+            <Label Text="TM Avondale"/>
+            <ProgressBar Progress="0.42"/>
+            <Label Text="TM Warren Park" />
+            <ProgressBar Progress="0.30"/>
+            <Label Text="TM Glenora" />
+            <ProgressBar Progress="0.22"/>
+            <Label Text="TM Town" />
+            <ProgressBar Progress="0.88"/>
+
+            <Label Text="Choppies Marimba"/>
+            <ProgressBar Progress="0.95"/>
+            <Label Text="Choppies Avondale"/>
+            <ProgressBar Progress="0.42"/>
+            <Label Text="Choppies Warren Park"/>
+            <ProgressBar Progress="0.32"/>
+            <Label Text="Choppies Glenora" />
+            <ProgressBar Progress="0.20"/>
+            <Label Text="Choppies Town" />
+            <ProgressBar Progress="0.45"/>
+
+        </StackLayout>
+        </ScrollView>
+</ContentPage>

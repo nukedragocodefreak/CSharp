@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Todo.LoginMenu" Title="">
+    <ScrollView>
+        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+            <Label Text="Dashboard" FontSize="Large"/>
+            <Label Text="" />
+            <Label Text="" />
+            <Button Text="Managers" Clicked="OnSaveClicked" BackgroundColor="DarkOrange" TextColor="White"/>
+            <Button Text="Sales Reps" Clicked="Button_Clicked_1" BackgroundColor="DarkOrange" TextColor="White"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

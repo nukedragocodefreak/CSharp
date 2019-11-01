@@ -1,0 +1,139 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OxyPlot.Core" Version="2.0.0-unstable1035" />
+    <PackageReference Include="OxyPlot.Xamarin.Forms" Version="1.0.0" />
+    <PackageReference Include="Xam.Plugin.Media" Version="4.0.1.5" />
+    <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OxyPlot">
+      <HintPath>..\..\..\..\..\WIBS\DesignTask2\DesignTask2.Android\obj\Debug\90\linksrc\OxyPlot.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Buyers\BuyersItemPage.xaml.cs">
+      <DependentUpon>BuyersItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Buyers\BuyersListPage.xaml.cs">
+      <DependentUpon>BuyersListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Calendar\CalendarItemPage2.xaml.cs">
+      <DependentUpon>CalendarItemPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Calendar\CalendarItemPage1.xaml.cs">
+      <DependentUpon>CalendarItemPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Calendar\CalendarItemPage.xaml.cs">
+      <DependentUpon>CalendarItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Calendar\CalendarListPage2.xaml.cs">
+      <DependentUpon>CalendarListPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Calendar\CalendarListPage1.xaml.cs">
+      <DependentUpon>CalendarListPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Calendar\CalendarListPage.xaml.cs">
+      <DependentUpon>CalendarListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Camera\Camera.xaml.cs">
+      <DependentUpon>Camera.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Camera\CameraListPage.xaml.cs">
+      <DependentUpon>CameraListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Customers\CustomersItemPage.xaml.cs">
+      <DependentUpon>CustomersItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Customers\CustomersListPage.xaml.cs">
+      <DependentUpon>CustomersListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\InStore\InStoreItemPage.xaml.cs">
+      <DependentUpon>InStoreItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\InStore\InstoreListPage.xaml.cs">
+      <DependentUpon>InstoreListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Login3.xaml.cs">
+      <DependentUpon>Login3.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Login2.xaml.cs">
+      <DependentUpon>Login2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\LoginManagers.xaml.cs">
+      <DependentUpon>LoginManagers.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\LoginMenu.xaml.cs">
+      <DependentUpon>LoginMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Login1.xaml.cs">
+      <DependentUpon>Login1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MenuManager.xaml.cs">
+      <DependentUpon>MenuManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\NumDistri\NumDistri.xaml.cs">
+      <DependentUpon>NumDistri.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\NumDistri\NumDistribution.xaml.cs">
+      <DependentUpon>NumDistribution.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\RateOfSale\RateOfSal.xaml.cs">
+      <DependentUpon>RateOfSal.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\RateOfSale\RateOfSale.xaml.cs">
+      <DependentUpon>RateOfSale.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Register\RegisterItemPage.xaml.cs">
+      <DependentUpon>RegisterItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Register\RegisterListPage.xaml.cs">
+      <DependentUpon>RegisterListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Routes\Routes.xaml.cs">
+      <DependentUpon>Routes.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\StockTake\AuthThree.xaml.cs">
+      <DependentUpon>AuthThree.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\StockTake\AuthTwo.xaml.cs">
+      <DependentUpon>AuthTwo.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\StockTake\AuthOne.xaml.cs">
+      <DependentUpon>AuthOne.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\StockTake\BuyerMenu.xaml.cs">
+      <DependentUpon>BuyerMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\StockTake\StocksItemPage.xaml.cs">
+      <DependentUpon>StocksItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\StockTake\StocksListPage.xaml.cs">
+      <DependentUpon>StocksListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\TodoItemPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\TodoListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
